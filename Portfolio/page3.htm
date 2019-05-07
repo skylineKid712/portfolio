@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- 	
+	Name:       Gary Whitney
+	Course:     CSCI-1720-001
+	Assignment: Portfolio Page 3
+	Due Date:   due date goes here
+	Purpose:    This is where you will describe the purpose of the page that 
+ 			    you have created.
+	-->
+
+	
+	<title>Gary Whitney CSCI 1720, Portfolio Page 3</title>
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; width=device-width" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type='text/javascript' src='portfolio.js'></script>
+
+	<style>
+		.stage 
+		{
+			position: relative;
+  			margin-left: auto ;
+  			margin-right: auto ;
+  			width: 544px;
+  			height: 320px;
+  			box-shadow: inset 0 0 20px #fff;
+  			background: url(meadow.jpg) no-repeat;
+  			-webkit-perspective: 200px;
+  			-moz-perspective: 200px;
+		}	
+
+
+
+		@-moz-keyframes lefttoright 
+		{
+			from 
+			{
+  		  		left: 0;
+    			margin-left: 0;
+    			-moz-transform: rotate(0) rotateY(0);
+  			}	
+  			to 
+  			{
+    			left: 100%;
+    			margin-left: -50px;
+    			-moz-transform: rotateZ(360deg) rotateY(360deg);
+  			}
+		}
+
+		@-moz-keyframes updown 
+		{
+  			from 
+  			{
+  			    bottom: 0;
+    			margin-bottom: 0;
+    			-webkit-transform: rotate(0) rotateY(0);
+    
+  			}
+  			to 
+  			{
+    			bottom: 100%;
+    			margin-bottom: -50px;
+    			-moz-transform: rotateZ(360deg) rotateY(360deg);
+    
+  			}
+		}
+		.LR 
+		{
+  			position: absolute;
+  			width: 50px;
+  			height: 320px;
+  			-moz-animation-name: lefttoright;
+  			-moz-animation-timing-function: linear;
+  			-moz-animation-iteration-count: infinite;
+  			-moz-animation-direction: alternate;
+  			-moz-animation-duration: 4.8s;
+		}
+
+		.UD 
+		{
+  			width: 50px;
+  			height: 50px;
+  			position: absolute;
+  			-moz-animation-name: updown;
+  			-moz-animation-iteration-count: infinite;
+  			-moz-animation-direction: alternate;
+  			-moz-animation-duration: 4.2s;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="header">
+		<h1>Leaf</h1>
+		<span class="text">Night Mode</span>
+	</div>
+	
+	<div class="card">
+    <p>
+    	<a href="http://einstein.etsu.edu/~whitney/CSCI1720/Portfolio/portfolio.htm">Home</a>
+    	&nbsp; &nbsp; &nbsp;
+    	<a href="http://einstein.etsu.edu/~whitney/CSCI1720/Portfolio/page1.htm">Sphere</a>
+    	&nbsp; &nbsp; &nbsp;
+    	<a href="http://einstein.etsu.edu/~whitney/CSCI1720/Portfolio/page2.htm">Accordion</a>
+    	&nbsp; &nbsp; &nbsp;
+    	<a class="current" href="http://einstein.etsu.edu/~whitney/CSCI1720/Portfolio/page3.htm">Leaf</a>
+    	&nbsp; &nbsp; &nbsp;
+    	<a href="http://einstein.etsu.edu/~whitney/CSCI1720/Portfolio/page4.htm">About Me</a>
+	</p>
+	</div>
+	
+	<div class="card">
+		<p><div class="stage">
+			<div class="LR">
+        		<div class="UD"><img src="leaf.png" width="50" height="50" alt="">
+        	</div>
+    	</div>
+		</div></p>
+	</div>
+
+<p>
+<br /><br />
+	<a href="http://validator.w3.org/check/referer">
+	<img src="http://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" width="88" height="88"
+	alt="HTML5 logo"></a>
+</p>
+
+<p>
+<br><br>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!"></a>
+</p>
+</body>
+
+</html>

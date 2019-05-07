@@ -1,0 +1,43 @@
+﻿body 
+{
+	background-image: url('background77.jpg');
+	color: #FFFFFF;
+}
+
+a:link 
+{
+	color: #00CCFF;
+}
+
+h1 
+{
+	font-size: 40pt;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+a:visited 
+{
+	color: #0066FF;
+}
+
+a:active 
+{
+	color: #00CCFF;
+}
+
+#name
+{
+	font-size: xx-large;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+}
+
+.classHeadings 
+{
+	color: #FFFFFF;
+	text-align: left;
+	font-size: x-large;
+	font-weight: bold;
+}

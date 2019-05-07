@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Dynamically loaded Stylesheet</title>
+    <script type="text/javascript" src="jquery-1.2.6.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a").click(function() {
+                $('head').append('<link rel="stylesheet" href="style2.css" type="text/css" />');
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="style1.css" type="text/css" />
+</head>
+<body>
+    <div>
+        <a href="javascript:">Make this text Green!</a>
+        <p><a href="http://www.rickardnilsson.net/post/2008/08/02/Applying-stylesheets-dynamically-with-jQuery.aspx" 
+            title="Go to article">Go back to the full article</a>
+        </p>
+    </div>
+</body>
+</html>

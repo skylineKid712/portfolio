@@ -1,0 +1,121 @@
+body
+{
+  font-family: Roboto, sans-serif;
+  background-color: #212121;
+}
+
+div
+{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center 
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    border-style: solid;
+    border-color: #2196F3;
+    padding: 10px;
+}
+
+.header 
+{
+	background-color: #2196F3;
+	border-bottom-style: solid;
+	border-width: thick;
+	border-color: #C0C0C0;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+
+.card 
+{
+    background:#616161;
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+		color: white;
+    padding:0px;
+    margin:15px;
+    overflow:hidden;
+}
+
+.card h1 
+{
+    margin:0px;
+    padding:10px;
+    padding-bottom:0px;
+}
+
+.card h2
+{
+	padding:10px;
+}
+
+.card p 
+{
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+
+.card
+
+a 
+{
+	font-size: large;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited 
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	padding: 10px;
+	background-color: #0066CC;
+	cursor:url('/images/aero-middle-finger-2.cur'), pointer;
+}
+
+input
+{
+    background-color: #212121;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+		font-size: 24px;
+		
+}
+
+button
+{
+    background-color: #212121;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+		font-size: 24px;
+}
+
+
